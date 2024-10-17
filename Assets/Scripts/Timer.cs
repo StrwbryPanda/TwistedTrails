@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class Timer : MonoBehaviour
 {
     public float timeLeft = 0;
     public bool isTimeRunning = true;
-    public Text timeText;
+    public TMP_Text timeText;
 
     // Start is called before the first frame update
     void Start()
