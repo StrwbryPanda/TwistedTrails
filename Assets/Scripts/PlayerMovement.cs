@@ -25,5 +25,6 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 targetVelocity = movement * moveSpeed;
+        body.velocity = Vector2.Lerp(body.velocity, targetVelocity, 0.2f);
     }
 }
