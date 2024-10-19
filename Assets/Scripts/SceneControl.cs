@@ -5,10 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneControl : MonoBehaviour
 {
-    public void selectScene()
+    public void selectEasyMazeScene()
     {
         SceneManager.LoadScene("EasyMaze");
     }
     
+    public void selectHardMazeScene()
+    {
+        SceneManager.LoadScene("HardMaze");
+    }
     
 }
