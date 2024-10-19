@@ -9,7 +9,7 @@ public class SceneControlEasy : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene("EasyMaze");
+            SceneManager.LoadScene("Main Menu");
         }
     }
 }

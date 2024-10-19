@@ -9,7 +9,7 @@ public class SceneControlHard : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene("HardMaze");
+            SceneManager.LoadScene("Main Menu");
         }
     }
 }
