@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneControl : MonoBehaviour
 {
+    // Scene Control for buttons
     public void selectEasyMazeScene()
     {
         SceneManager.LoadScene("EasyMaze");
@@ -14,5 +15,15 @@ public class SceneControl : MonoBehaviour
     {
         SceneManager.LoadScene("HardMaze");
     }
-    
+
+    public void selectMainMenuScene()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void QuitApplication()
+    {
+        Debug.Log("Quit!");
+        Application.Quit();
+    }
 }
