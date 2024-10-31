@@ -21,7 +21,6 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1;
     }
-<<<<<<< HEAD
 
     public void TogglePause()
     {
@@ -35,6 +34,4 @@ public class PauseMenu : MonoBehaviour
             Continue();
         }
     }
-=======
->>>>>>> 8a8bdde986ac052ee3b332621197a7835ff6669b
 }
