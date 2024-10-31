@@ -21,4 +21,17 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+
+    public void TogglePause()
+    {
+        // Toggle between paused and unpaused states
+        if (Time.timeScale == 1)
+        {
+            Pause();
+        }
+        else
+        {
+            Continue();
+        }
+    }
 }

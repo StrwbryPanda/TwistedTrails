@@ -17,6 +17,11 @@ public class Timer : MonoBehaviour
         isTimeRunning = true;
     }
 
+    public void ToggleTime()
+    {
+        isTimeRunning = !isTimeRunning;
+    }
+
     // Update is called once per frame
     void Update()
     {
